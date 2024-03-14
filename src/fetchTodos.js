@@ -10,5 +10,5 @@ exports.fetchEvenTodos = async (limit) => {
   
   const results = await Promise.all(promises);
   
-  return results.map(response => response.data).filter((_, index) => index < limit);
+  return results.map(response => response.data);
 };
