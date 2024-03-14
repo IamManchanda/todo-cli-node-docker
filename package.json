@@ -1,0 +1,22 @@
+{
+  "name": "todo-cli-node-docker",
+  "version": "1.0.0",
+  "description": "Command line tool to manage the todo list",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.27"
+  }
+}
